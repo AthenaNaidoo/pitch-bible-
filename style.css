@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar li{
+    list-style: none;
+    margin-left: 2px;
+}
+
+.navbar ul li{
+    display: inline;
+}
+
+.firstSection img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+/*Buttons*/
+.plotBut{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    width: 30%;
+}
+.characterBut{
+    background-color: black;
+    outline: none;
+    position: absolute;
+    top: 20rem;
+    left: 0;
+    width: 30%;
+}
+.infoBut{
+    background-color: black;
+    outline: none;
+    position: absolute;
+    top: 31rem;
+    left: 0;
+    width: 30%;
+}
+.artistBut{
+    background-color: black;
+    outline: none;
+    position: absolute;
+    top: 9rem;
+    right: 0;
+    width: 30%;
+}
+.inspoBut{
+    background-color: black;
+    outline: none;
+    position: absolute;
+    top: 22rem;
+    right: 0;
+    width: 30%;
+}
+
+/*Sections*/
+.plotSection{
+    background-image: url(Page.png);
+    
+}
+.characterSec{
+    background-image: url(Page.png);
+}
+.infoSec{
+    background-image: url(Page.png);
+}
+.artistSec{
+    background-image: url(Page.png);
+}
+.inspoSec{
+    background-image: url(Page.png);
+}
