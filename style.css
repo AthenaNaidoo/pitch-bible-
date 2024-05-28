@@ -156,6 +156,7 @@ body{
 .infoSec img{
     width: 100%;
     height: auto;
+    padding-bottom: 5px;
 }
 
 .artistSec{
@@ -169,6 +170,23 @@ body{
 .artistSec h3{
     font-size: 40px;
     padding-bottom: 3rem;
+}
+
+.artistSec ul{
+    list-style: none;
+}
+
+
+.artistSec li{
+     display: inline-block; 
+        margin-right: 20px;
+}
+
+.artistSec ul li img{
+    display: inline-block; 
+    width: 25%;
+    height: auto;
+    
 }
 
 .inspoSec{
