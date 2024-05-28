@@ -140,7 +140,12 @@ body{
 
 .characterSec h3{
     font-size: 40px;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+
+.characterSec ul li{
+    font-size: 17px;
+    padding-bottom: 30px;    
 }
 
 .infoSec{
@@ -196,13 +201,15 @@ body{
     
 }
 
-.inspoSec li{
-    padding-bottom: 5px;
+
+.inspoSec ul li{
+    font-size: 20px;
+    padding-bottom: 30px;
 }
 
 .inspoSec h3{
     font-size: 40px;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .End img{
