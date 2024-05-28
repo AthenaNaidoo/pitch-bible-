@@ -155,6 +155,7 @@ body{
 }
 .infoSec img{
     width: 100%;
+    height: auto;
 }
 
 .artistSec{
@@ -188,4 +189,5 @@ body{
 
 .End img{
     width: 100%;
+    height: auto;
 }
