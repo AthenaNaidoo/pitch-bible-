@@ -3,13 +3,36 @@ body{
     color: white;
 }
 
+.site-title{
+    text-align: center;
+    color: #ff55c6;
+}
+
+.title{
+    text-align: center;
+    color: #ff55c6; 
+}
+
+.navbar{
+    position: fixed; 
+    top: 0; 
+    right: 0;
+    padding-right: 2rem;
+}
+
 .navbar li{
+    color: #00ff1e;
     list-style: none;
     margin-left: 2px;
 }
 
 .navbar ul li{
     display: inline;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #00ff1e;    
 }
 
 .firstSection img{
@@ -20,6 +43,11 @@ body{
 }
 
 /*Buttons*/
+.firstSection{
+    margin-bottom: 10px;
+    padding-bottom: 2rem;
+}
+
 .plotBut{
     background-color: black;
     border: none;
@@ -28,32 +56,55 @@ body{
     left: 0;
     width: 30%;
 }
+
+.plotBut :hover{
+    box-shadow: 0 0 10px #35f945;
+}
 .characterBut{
     background-color: black;
+    border: none;
     outline: none;
     position: absolute;
     top: 20rem;
     left: 0;
     width: 30%;
 }
+
+.characterBut :hover{
+    box-shadow: 0 0 10px #35f945;
+}
+
 .infoBut{
     background-color: black;
+    border: none;
     outline: none;
     position: absolute;
     top: 31rem;
     left: 0;
     width: 30%;
 }
+
+.infoBut :hover{
+    box-shadow: 0 0 10px #35f945;
+}
+
 .artistBut{
     background-color: black;
+    border: none;
     outline: none;
     position: absolute;
     top: 9rem;
     right: 0;
     width: 30%;
 }
+
+.artistBut :hover{
+    box-shadow: 0 0 10px #35f945;
+}
+
 .inspoBut{
     background-color: black;
+    border: none;
     outline: none;
     position: absolute;
     top: 22rem;
@@ -61,20 +112,80 @@ body{
     width: 30%;
 }
 
+.inspoBut :hover{
+    box-shadow: 0 0 10px #35f945;
+}
+
 /*Sections*/
 .plotSection{
-    background-image: url(Page.png);
+    background-image: url(./assets/Page.png);
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     
 }
+
+.plotSection h3{
+    font-size: 40px;
+    padding-bottom: 3rem;
+}
+
 .characterSec{
-    background-image: url(Page.png);
+    background-image: url(./assets/Page.png);
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
 }
+
+.characterSec h3{
+    font-size: 40px;
+    padding-bottom: 3rem;
+}
+
 .infoSec{
-    background-image: url(Page.png);
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
 }
+.infoSec h3{
+    font-size: 40px;
+    padding-bottom: 3rem;
+}
+.infoSec img{
+    width: 100%;
+}
+
 .artistSec{
-    background-image: url(Page.png);
+    background-image: url(./assets/Page.png);
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
 }
+
+.artistSec h3{
+    font-size: 40px;
+    padding-bottom: 3rem;
+}
+
 .inspoSec{
-    background-image: url(Page.png);
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+
+.inspoSec li{
+    padding-bottom: 5px;
+}
+
+.inspoSec h3{
+    font-size: 40px;
+    padding-bottom: 3rem;
+}
+
+.End img{
+    width: 100%;
 }
